@@ -1,12 +1,86 @@
-# React + Vite
+# Ivory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ivory is a frontend project tailored for interior designers, providing an elegant and user-friendly interface to showcase their work, manage portfolios, and interact with clients. Built with React, Ivory emphasizes modern design principles and seamless user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Portfolio Showcase**: Display interior design projects with images, descriptions, and categories.
+- **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
+- **Interactive UI**: Smooth navigation and engaging components for designers and clients.
+- **Customization**: Easily adaptable to different branding and content requirements.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/)
+- HTML5 & CSS3
+- Tailwind4
+- JavaScript (ES6+)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v22.14.0 )
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Nitishjhaa/Frontend_Projects.git
+   cd Frontend_Projects/ivory
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## Project Structure
+
+```
+ivory/
+  ├── public/
+  ├── src/
+  │   ├── components/
+  │   ├── pages/
+  │   ├── App.js
+  │   └── index.js
+  ├── package.json
+  └── README.md
+```
+
+- `src/components`: Reusable React components.
+- `src/pages`: Main pages/screens of the application.
+- `App.js`: Root component.
+- `public`: Static assets.
+
+## Customization
+
+To adapt Ivory for your specific needs:
+- Update components in `src/components`
+- Add or modify pages in `src/pages`
+- Customize styles as needed
+
+## Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](../LICENSE).
+
+---
+
+> Crafted for interior designers to bring their vision to life online.
