@@ -13,14 +13,14 @@ Ivory is a frontend project tailored for interior designers, providing an elegan
 
 - [React](https://react.dev/)
 - HTML5 & CSS3
+- Tailwind4
 - JavaScript (ES6+)
-- [Other libraries or frameworks, if used — add here]
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or above recommended)
+- Node.js (v22.14.0 )
 - npm or yarn
 
 ### Installation
